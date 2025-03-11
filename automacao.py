@@ -15,7 +15,9 @@ def aut(vezes):
         pa.scroll(-200);
         pa.click(x=1571, y=856);
         pa.click(x=786, y=438);
-        pa.click(x=1447, y=875);
+        pa.click(x=1559, y=877);
+        pa.click(x=1511, y=874);
+        time.sleep(2);
         pa.click(x=452, y=303);
         time.sleep(3)
         pa.write('239');

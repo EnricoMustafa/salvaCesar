@@ -19,6 +19,9 @@ app = ctk.CTk();
 app.title('Salva César');
 app.geometry('400x300');
 
+imagem = PhotoImage(file="image.png");
+label_imagem = ctk.CTkLabel(app, image=imagem);
+label_imagem.pack(pady=10);
 
 label_usuario = ctk.CTkLabel(app, text='Quantas vezes você quer executar a tarefa?');
 label_usuario.pack(pady=1);

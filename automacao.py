@@ -13,10 +13,11 @@ def aut(vezes):
         pa.click(x=942, y=789);
         time.sleep(6)
         pa.scroll(-200);
-        pa.click(x=1571, y=856);
-        pa.click(x=786, y=438);
-        pa.click(x=1559, y=877);
-        pa.click(x=1511, y=874);
+        pa.click(x=1583, y=799);
+        pa.click(x=803, y=391);
+        pa.click(x=1480, y=823);
+        pa.click(x=1449, y=819);
+        pa.click(x=1516, y=819);
         time.sleep(2);
         pa.click(x=452, y=303);
         time.sleep(3)
